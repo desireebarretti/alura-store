@@ -1,0 +1,20 @@
+.app { /*classe pai de header, main e footer*/
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: /*devem estar em ordem que devem aparecer, essas são de fato as areas do layout*/
+        "cabecalho" 
+        "conteudo" 
+        "rodape";
+    grid-template-columns: auto; /*especifica qual será o tamanho das colunas*/
+    grid-template-rows: 50px 100vw -5px; /*especifica qual será o tamanho das linhas, no caso tres (cabecalho, conteudo e rodape)*/
+    background: linear-gradient(180deg, #45297c,#f0e9ff, #45297c);
+}
+.cabecalho {
+    grid-area: cabecalho; /*indica ser filho do grid template areas*/
+}
+.conteudo {
+    grid-area: conteudo;
+}   
+.rodape {
+    grid-area: rodape;
+}
