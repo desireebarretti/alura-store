@@ -10,10 +10,10 @@
    - Um site criado do como desafio de um modulo da Alura. Este site, funciona como uma loja de jogos, onde temos jogos em destaque, populares, e etc. Temos também um cabeçalho com icones, link com hover, um espaço para pesquisar novos jogos, usei tambmém cores gradientes para deixar um pouco mais divertido, e também um site responsivo que funcione bem em mobiles, e desktops. 
 
 1. **AUTORES**
-  - Apenas eu sou a autora desta página.
+   - Apenas eu sou a autora desta página.
   
 1. **TECNOLOGIAS**
-  - HTML e CSS
+   - HTML e CSS
 
 1. **PÁGINA** 
    - https://desireebarretti.github.io/alura-store/
